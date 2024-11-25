@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1615f583-950f-4a11-b5bf-abba09c1742a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/StreamlitTests.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.streamlit/config.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Actions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreateAgent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/History.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integrations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_in.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx_streamlit.conf" afterDir="false" />
+    <list default="true" id="1615f583-950f-4a11-b5bf-abba09c1742a" name="Changes" comment="this is v0.1.0 of Edison Functions UI">
+      <change afterPath="$PROJECT_DIR$/../EdisonFunctionsUI/ssl_certificates/certificate.crt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../EdisonFunctionsUI" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -53,6 +38,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/chanceobondo/Desktop/StreamlitTests/static"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "repository"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -103,6 +94,19 @@
       <option name="presentableId" value="Default" />
       <updated>1732208483377</updated>
     </task>
+    <task id="LOCAL-00001" summary="this is v0.1.0 of Edison Functions UI">
+      <option name="closed" value="true" />
+      <created>1732548880740</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732548880740</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="this is v0.1.0 of Edison Functions UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="this is v0.1.0 of Edison Functions UI" />
   </component>
 </project>
