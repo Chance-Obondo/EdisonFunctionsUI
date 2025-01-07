@@ -124,6 +124,7 @@ def delete_action(name: str):
                                 })
     st.session_state.result = response.json()
 
+
 # use this dialog to edit an action
 @st.dialog("Edit action")
 def edit_action(name: str, description: str, parameters: list, required_params: list):
@@ -200,7 +201,6 @@ def edit_action(name: str, description: str, parameters: list, required_params: 
                 st.rerun()
             else:
                 st.error("❌ Error occurred")
-
 
 
 @st.dialog("Create Action")

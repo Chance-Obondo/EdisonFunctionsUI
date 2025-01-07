@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1615f583-950f-4a11-b5bf-abba09c1742a" name="Changes" comment="this is v0.1.0 of Edison Functions UI">
-      <change afterPath="$PROJECT_DIR$/../EdisonFunctionsUI/ssl_certificates/certificate.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bynarybots_api/edisonSearchv0.1/.idea/edisonSearchv0.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myKeys/edison_certs/.idea/edison_certs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EdisonFunctionsUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EdisonFunctionsUI/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../EdisonFunctionsUI" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -33,9 +38,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python.main.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/chanceobondo/Desktop/StreamlitTests/static"
   },
@@ -102,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732548880740</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="this is v0.1.0 of Edison Functions UI">
+      <option name="closed" value="true" />
+      <created>1732549400149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732549400149</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

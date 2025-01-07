@@ -20,6 +20,7 @@ log_in = st.Page("log_in.py")
 create_agent_page = st.Page("CreateAgent.py")
 
 actions_page = st.Page("Actions.py", default=True, title="Actions", icon="🔧")
+topics_page = st.Page("Topics.py", title="Topics", icon="📖")
 integrations_page = st.Page("Integrations.py", icon="🔌")
 history_page = st.Page("History.py", icon="🧾")
 settings_page = st.Page("Settings.py", icon="⚙️")
@@ -66,6 +67,22 @@ def create_agent():
             st.info("🤨 Agent already exists! ")
 
 
+@st.dialog("Add system prompt")
+def update_system_prompt():
+    system_prompt = st.text_area(label="Please give your agent a system prompt. Also PRESS ENTER for the system prommpt to be picked")
+    save_system_prompt = st.button(label="Save")
+    if save_system_prompt == True:
+        response = requests.put(url=f"http://127.0.0.1:8000/bots/{st.session_state.agent}?system_prompt={system_prompt}",
+                                 headers={
+                                       "Authorization": f"bearer {st.session_state.access_token}"
+                                       })
+        if response.json()["response"] == "1":
+            st.success("✅ System prompt saved")
+            st.rerun()
+        else:
+            st.error("❌ Error occurred")
+
+
 # control site navigation for users
 if st.session_state.logged_in == False:
     pg = st.navigation([log_in])
@@ -94,8 +111,10 @@ else:
         for bot in response_data["bot"]:
             if bot["name"] == selected_bot:
                 st.session_state.agent = bot["id"]
+                if "system_prompt" not in bot:
+                    update_system_prompt()
 
         st.sidebar.button(label="Create Agent", on_click=create_agent)
-        pg = st.navigation([actions_page, integrations_page, history_page, settings_page])
+        pg = st.navigation([actions_page, topics_page, integrations_page, history_page, settings_page])
 
 pg.run()
