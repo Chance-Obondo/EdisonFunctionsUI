@@ -30,9 +30,11 @@ settings_page = st.Page("Settings.py", icon="⚙️")
 @st.dialog("Create Agent")
 def create_agent():
     agent_name = st.text_input(label="Agent Name")
+    agent_system_prompt = st.text_area(label="Agent system prompt")
     bot_id = generate_random_string(10)
     request_body = {
         "name": agent_name,
+        "system_prompt": agent_system_prompt,
         "id": bot_id,
         "whatsappIntegration": False,
         "facebookIntegration": False,
